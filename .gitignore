@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+myenv/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media/
+
+# If your build process includes a /static folder:
+staticfiles/
+
+# Gunicorn log files
+gunicorn.log
+gunicorn.err
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# IDEA
+.idea/
+
+# MacOS
+.DS_Store
+
+# Render specific
+render.yaml
