@@ -1,1 +1,1 @@
-web: gunicorn laptop_rental.wsgi --log-file -
+web: ls --log-file -
