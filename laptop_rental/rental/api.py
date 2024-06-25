@@ -7,7 +7,7 @@ api = NinjaAPI()
 @api.get("/laptops")
 def get_laptops(request):
     laptops = Laptop.objects.all()
-    return laptops
+    return [LaptopSchema.from_orm(laptop) for laptop in laptops]
 
 @api.post("/rental")
 def create_rental(request, rental: RentalSchema):

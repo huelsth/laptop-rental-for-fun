@@ -5,13 +5,22 @@ class LaptopSchema(Schema):
     name: str
     image: str
 
+    class Config:
+        orm_mode = True
+
 class AccessorySchema(Schema):
     name: str
     image: str
 
+    class Config:
+        orm_mode = True
+
 class InsuranceSchema(Schema):
     name: str
     image: str
+
+    class Config:
+        orm_mode = True
 
 class RentalSchema(Schema):
     laptop: int
